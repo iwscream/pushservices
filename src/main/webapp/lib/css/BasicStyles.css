@@ -1,0 +1,150 @@
+html {
+    height: 100%;
+    overflow: hidden;
+    font-size: 25px;
+    color: white;
+}
+img { pointer-events: none; }
+body {
+    height: 100%;
+    overflow: hidden;
+}
+.decorate-header {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 7px;
+    height: 7%;
+}
+.uni-font {
+    font-size: 25px;
+    color: white;
+}
+.uni-input {
+    background-color: transparent;
+    color: #fff;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom: solid 2px white;
+    border-left-width: 0;
+}
+.cont-text-area {
+    background-color: transparent;
+    color: #fff;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+#decorate-cap {
+    position: absolute;
+    left: 8%;
+    top: 40px;
+    width: 20%;
+    transform: translate(-30%,-50%);
+}
+.decorate-santa1 {
+    position: absolute;
+    left: 80%;
+    bottom: 50%;
+    max-width: 25%;
+    max-height: 20%;
+    transform: translate(-50%,0);
+}
+.decorate-santa2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 33%;
+    max-height: 40%;
+}
+.decorate-santa2-sm {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 25%;
+    max-height: 30%;
+}
+.decorate-polygon {
+    position: absolute;
+    left: 10%;
+    top: 14%;
+    max-width: 8%;
+    max-height: 15%;
+}
+
+.general-background {
+    background-color: #0f674b;
+}
+
+.topic-background {
+    background-color: #055257;
+}
+
+.screen-direction-detector-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.flex {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-around {
+    justify-content: space-around;
+}
+.flex-between {
+    justify-content: space-between;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.padding-none {
+    padding: 0;
+}
+.padding-sm {
+    padding: 8px 8px;
+}
+.padding-mi {
+    padding: 15px 15px;
+}
+.padding-lg {
+    padding: 25px 25px;
+}
+.margin-none {
+    margin: 0;
+}
+.margin-sm {
+    margin: 8px 8px;
+}
+.margin-mi {
+    margin: 15px 15px;
+}
+.margin-lg {
+    margin: 25px 25px;
+}
+.border-none {
+    border: 0;
+}
+
+.circled-border {
+    border-radius: 10px;
+    border: dashed white 2px;
+    color: white;
+}
+
+.background {
+    background-image: url('../../resource/public/background.png');
+}
+
